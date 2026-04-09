@@ -1,2 +1,2 @@
 # Python-Libraries
-This folder comtains Python Libraries Numpy,Pandas , Matplot,Seaborn
+This folder contains Python Libraries Numpy,Pandas , Matplot,Seaborn
