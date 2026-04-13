@@ -130,7 +130,7 @@
 
 
 # lenght
-import numpy as np
+# import numpy as np
 # a=np.array(["amit","python","copy","notebooks"])
 # print(len(a))
 
@@ -152,5 +152,93 @@ import numpy as np
 # a=np.array(["name","ml"])
 # b=np.array(["name","lm"])
 # print(np.char.equal(a,b))
+
+
+# Create a NumPy array with numbers 1 to 10 and find:  Sum  Mean  Maximum Minimum
+# import numpy as np
+# a=([1,2,3,4,5,6,7,8,9,10])
+# b=([1,2,3,4,5,6,7,8,9,11])
+# print(np.sum(a))
+# print(np.mean(a))
+# print(np.max(a))
+# print(np.min(a))
+# print(np.minimum(a,b))
+# print(np.maximum(a,b))
+# print(np.add(a,b))
+# print(np.subtract(a,b))
+# print(np.multiply(a,b))
+# print(np.divide(a,b))
+
+# find even numbers form 1 to 20
+# arr=np.arange(1,21)
+# x=arr[arr%2==0]
+# print(x)
+
+# 3*3 array
+# arr=np.array([[1,23,233],[22,233,44],[434,41,55]])
+# v=(np.sum(arr,axis=0))
+# v=(np.sum(arr,axis=1))
+# print(v)
+
+# import random
+# a=np.random.randint(1,11,10)
+# b=np.sum(a)
+# print(np.std(b))
+# print(np.var(b))
+
+# a=np.array([1,2,3,4,5])
+# print(np.square(a))
+  
+# arr=np.arange(1,13)
+# print(arr.reshape(3,4))
+
+
+# A=np.array([1,2,3])
+# B=np.array([4,55,6])
+# c=np.dot(A,B)
+# print(c)
+
+# S =np.array(["string","amit"])
+# print(np.char.upper(S))
+# print(np.char.lower(S))
+
+# arr=np.array(["Banana and Mango"])
+# print(np.char.count(arr,"a"))
+
+
+# arr=np.array(["Python"])
+# print(np.char.replace(arr,"Python","java"))
+
+# strin=np.array(["Hello123"])
+# print(np.char.isalnum(strin))
+# print(np.char.isalpha(strin))
+
+
+# aae=np.array(["artificial intelligence"])
+# print(len(aae[0]))
+# print(np.char.str_len(aae))
+
+
+# stri=np.array(["apple,banana,grapes,mango"])
+# print(stri.split(","))
+
+# arr=[12,23,34,22,21,66]
+# first=max(arr)
+# arr.remove(first)
+# second=max(arr)
+# arr.remove(second)
+# result=first+second
+# print(result)
+
+# # OR------
+# arr2=[1,223,4,3,3,22,2]
+# result=(sum(sorted(arr2)[-1:]))
+# print(result)
+
+# filter
+# numbers=np.array([1,2,3,4,5,6])
+# even_numbers=numbers[numbers%2==0]
+# print(even_numbers)
+
 
 
