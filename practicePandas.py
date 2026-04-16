@@ -163,4 +163,36 @@ import pandas as pd
 # print("square")
 # print(s.combine(d,pow))
 
+# df=pd.DataFrame(data)
+# print(df)
+# print(df.head(2))....print the values upto given index
+# print(df.tail())
+# print(df.info())  
+# print(df.describe()).....avg, max,mean values
+
+
+# some fun of pandas:
+# print(df.loc())
+# print(df.iloc())
+# print(df.drop(2))
+# # print(df.fillna())
+# print(df.sort_values(1))
+# print(df.count())
+# df["age"]=df["age"].apply(lambda x:x+1)
+
+
+# example
+# import pandas as pd
+# d=pd.read_csv("D:\Book1.csv")
+# print(d)
+# df=pd.DataFrame(d)
+# print(df)
+# print(df.head())
+# print(df.tail())
+# print(df.info())  
+# print(df.describe())
+# print(df.loc())
+
+
+
 
