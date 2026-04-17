@@ -1,5 +1,6 @@
 # import pandas as pd
 # import matplotlib as plt
+# import numpy as np
 # xpoints=np.array([0,6])
 # ypoint=np.array([0,25])
 # plt.plot(xpoints,ypoint)
